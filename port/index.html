@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chinky Kumari | MCA Student | Software Developer</title>
+  <meta name="description" content="Portfolio of Chinky Kumari, an MCA student and software developer interested in Artificial Intelligence, Machine Learning and modern software development." />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chinky Kumari | Software Developer Portfolio" />
+  <meta property="og:description" content="MCA Student, Software Developer, AI & ML Enthusiast." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts & Lucide Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sticky Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo">CK<span class="dot">.</span></a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+        <i data-lucide="menu"></i>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">// SOFTWARE DEVELOPER</p>
+          <h1 class="hero-title">Chinky Kumari</h1>
+          <h2 class="hero-subtitle">MCA Student | Software Developer | AI & ML Enthusiast</h2>
+          <p class="hero-description">
+            Building practical software solutions while exploring web development, Artificial Intelligence and Machine Learning.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">VIEW PROJECTS <i data-lucide="arrow-down-right"></i></a>
+            <a href="#contact" class="btn btn-secondary">GET IN TOUCH</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/ChinkyKumari" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+            <a href="https://www.linkedin.com/in/chinky-chinky" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+
+          </div>
+        </div>
+        <div class="hero-image-wrapper reveal">
+          <div class="image-card">
+            <img src="assets/profile.jpg" alt="Chinky Kumari" id="profile-img" onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'300\' viewBox=\'0 0 300 300\'><rect width=\'100%\' height=\'100%\' fill=\'%230d0d0d\'/><text x=\'50%\' y=\'50%\' fill=\'%233b82f6\' font-family=\'sans-serif\' font-size=\'48\' font-weight=\'bold\' text-anchor=\'middle\' dy=\'.3em\'>CK</text></svg>'" />
+            <div class="image-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am an MCA student with a strong interest in software development, web technologies, Artificial Intelligence and Machine Learning. I enjoy transforming ideas into practical projects and learning new technologies through hands-on development.
+            </p>
+            <ul class="about-interests">
+              <li><i data-lucide="check-circle-2"></i> Building software projects</li>
+              <li><i data-lucide="check-circle-2"></i> Learning programming</li>
+              <li><i data-lucide="check-circle-2"></i> Developing web applications</li>
+              <li><i data-lucide="check-circle-2"></i> Exploring AI and ML</li>
+              <li><i data-lucide="check-circle-2"></i> Solving programming problems</li>
+            </ul>
+          </div>
+          <div class="code-card reveal">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">developer.js</span>
+            </div>
+            <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Chinky Kumari"</span>,
+  <span class="property">role</span>: <span class="string">"Software Developer"</span>,
+  <span class="property">education</span>: <span class="string">"MCA"</span>,
+  <span class="property">interests</span>: [
+    <span class="string">"Software Development"</span>,
+    <span class="string">"AI & ML"</span>,
+    <span class="string">"Web Development"</span>
+  ]
+};</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i data-lucide="terminal"></i></div>
+            <h3>Python</h3>
+            <p>Programming, problem solving and application development.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i data-lucide="code-2"></i></div>
+            <h3>Java</h3>
+            <p>Object-oriented programming and software development.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i data-lucide="layout"></i></div>
+            <h3>HTML</h3>
+            <p>Semantic webpage structure and modern web interfaces.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i data-lucide="palette"></i></div>
+            <h3>CSS</h3>
+            <p>Responsive layouts, styling and modern UI design.</p>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon"><i data-lucide="cpu"></i></div>
+            <h3>AI & ML</h3>
+            <p>Artificial Intelligence, Machine Learning concepts and AI-based applications.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Selected Projects</h2>
+        <p class="section-subtitle reveal">Some of the projects I've built while learning and exploring software development.</p>
+        
+        <div class="projects-grid">
+          <!-- Project 01 -->
+          <article class="project-card reveal">
+            <span class="project-number">01</span>
+            <div class="project-header">
+              <h3>Django Project</h3>
+              <a href="https://github.com/ChinkyKumari/Django-Project" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">A Django-based web application demonstrating backend development, database integration, templates and web application structure.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/Django-Project" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project-card reveal">
+            <span class="project-number">02</span>
+            <div class="project-header">
+              <h3>Generative Chatbot</h3>
+              <a href="https://github.com/ChinkyKumari/Generative-Chatbot" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">An AI-based generative chatbot project designed to interact with users and generate intelligent responses.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>AI</span><span>Generative AI</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/Generative-Chatbot" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project-card reveal">
+            <span class="project-number">03</span>
+            <div class="project-header">
+              <h3>Simple Chatbot with Basic Responses</h3>
+              <a href="https://github.com/ChinkyKumari/Simple-Chatbot-with-Basic-Responses" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">A simple chatbot application that demonstrates conversational interaction using predefined responses and basic chatbot logic.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>Chatbot</span><span>Logic</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/Simple-Chatbot-with-Basic-Responses" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 04 -->
+          <article class="project-card reveal">
+            <span class="project-number">04</span>
+            <div class="project-header">
+              <h3>Paint Application</h3>
+              <a href="https://github.com/ChinkyKumari/Paint_Application" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">An interactive paint application that allows users to create drawings through a graphical interface.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>GUI</span><span>Graphics</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/Paint_Application" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 05 -->
+          <article class="project-card reveal">
+            <span class="project-number">05</span>
+            <div class="project-header">
+              <h3>Chatbot Assistant</h3>
+              <a href="https://github.com/ChinkyKumari/chatbot-Assistant" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">A chatbot assistant project focused on creating an interactive conversational experience for users.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>Chatbot</span><span>AI</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/chatbot-Assistant" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 06 -->
+          <article class="project-card reveal">
+            <span class="project-number">06</span>
+            <div class="project-header">
+              <h3>Quiz Game</h3>
+              <a href="https://github.com/ChinkyKumari/Quiz_Game_By_Chinky" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">An interactive quiz game developed to provide users with an engaging question-and-answer experience.</p>
+            <div class="tech-tags">
+              <span>Python</span><span>GUI</span><span>Quiz</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/Quiz_Game_By_Chinky" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 07 -->
+          <article class="project-card reveal">
+            <span class="project-number">07</span>
+            <div class="project-header">
+              <h3>C4ck</h3>
+              <a href="https://github.com/ChinkyKumari/C4ck" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">An academic programming project demonstrating programming concepts and practical implementation.</p>
+            <div class="tech-tags">
+              <span>Programming</span><span>Software Development</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/C4ck" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+
+          <!-- Project 08 -->
+          <article class="project-card reveal">
+            <span class="project-number">08</span>
+            <div class="project-header">
+              <h3>JavaScript Project</h3>
+              <a href="https://github.com/ChinkyKumari/JavaScript1.1" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository"><i data-lucide="arrow-up-right"></i></a>
+            </div>
+            <p class="project-desc">A JavaScript-based project created to practice web development and interactive functionality.</p>
+            <div class="tech-tags">
+              <span>JavaScript</span><span>HTML</span><span>CSS</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/ChinkyKumari/JavaScript1.1" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i data-lucide="github"></i> View Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GitHub Integration Section -->
+    <section id="github-projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">More Projects on GitHub</h2>
+        <div id="github-repos-container" class="github-grid">
+          <div class="loading-state">Loading repositories from GitHub...</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Experience</h2>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Present</span>
+              <h3>Software & Academic Projects</h3>
+              <p>Currently building practical experience through academic, personal and software development projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 – 2027</span>
+              <h3>Master in Computer Applications (MCA with AI & DS)</h3>
+              <p class="college-name">CT University</p>
+              <p>Focused on software development, programming, web technologies, Artificial Intelligence and Machine Learning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <!--<section id="certificates" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Certificates</h2>
+        <div class="certificates-grid">
+          <div class="certificate-card reveal">
+            <h3>Certificate Name Placeholder</h3>
+            <p class="cert-org">Issuing Organization</p>
+            <p class="cert-date">Issued Date</p>
+            <a href="#" class="btn btn-outline btn-sm">View Certificate <i data-lucide="external-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--<!-- Contact Section 
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-wrapper reveal">
+          <div class="contact-info">
+            <h2 class="contact-heading">Let's Build Something Together.</h2>
+            <p class="contact-desc">I'm always interested in learning, building new projects and connecting with people in technology.</p>
+            
+            <div class="contact-details">
+              <a href="chinky884768@gmail.com" class="contact-detail-item">
+                <i data-lucide="mail"></i>
+                <span>ADD_MY_EMAIL</span>
+              </a>
+              <a href="https://www.linkedin.com/in/chinky-chinky" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
+                <i data-lucide="linkedin"></i>
+                <span>LinkedIn Profile</span>
+              </a>
+              <a href="https://github.com/ChinkyKumari" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
+                <i data-lucide="github"></i>
+                <span>github.com/ChinkyKumari</span>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" action="0b0750e0-30c0-4349-8f26-d29f2d41fc15" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Your Message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message <i data-lucide="send"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main> 
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">CK<span class="dot">.</span></a>
+        <p class="footer-name">Chinky Kumari</p>
+        <p class="footer-tagline">MCA Student | Software Developer | AI & ML Enthusiast</p>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/ChinkyKumari" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+        <a href="linkedin.com/in/chinky-chinky" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        <a href="mailto:ADD_MY_EMAIL" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+      <p class="copyright">&copy; 2026 Chinky Kumari. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
